@@ -9,6 +9,6 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
   thymeleaf:
-    cache: true
+    cache: false
   mvc:
     static-path-pattern: /**
