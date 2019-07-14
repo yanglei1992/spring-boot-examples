@@ -9,9 +9,6 @@
     background-image: url('../images/slides/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-	height: auto;
-	width: auto\9;
-	width:100%;
 }
 #first-slider .slide2 {
   background-image: url('../images/slides/2.jpg');
@@ -147,6 +144,25 @@ ul li {
 }
 #header .logo {
 	float: left;
+	font-size: 28px;
+	font-weight: bolder;
+	color: #fec400;
+	text-decoration:none;
+	text-transform:uppercase;
+	letter-spacing: 0px;
+	margin-top: -10px;
+}
+#header.fixed {
+	background-color: #222222;
+}
+#header.fixed a {
+	/* color: #000; */
+}
+#header.fixed .header-content {
+	border-bottom: 0;
+	padding: 25px 0;
+}
+#header.fixed .nav-toggle {
 	top: 18px;
 	color: #000;
 }
