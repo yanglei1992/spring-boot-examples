@@ -7,17 +7,17 @@
 
 #first-slider .slide1 {
     background-image: url('../images/slides/1.jpg');
-    background-size: cover;
+    background-size:  100% 100%;
     background-repeat: no-repeat;
 }
 #first-slider .slide2 {
   background-image: url('../images/slides/2.jpg');
-  background-size: cover;
+  background-size:  100% 100%;
   background-repeat: no-repeat;
 }
 #first-slider .slide3 {
   background-image: url('../images/slides/3.jpg');
-      background-size: cover;
+      background-size:  100% 100%;
     background-repeat: no-repeat;
 }
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
