@@ -9,7 +9,15 @@ public class PageController {
 	@RequestMapping("/web/{page}")
 	public Object page() {
 
-		return "index.html";
+		return "/index.html";
+
+	}
+	
+
+	@RequestMapping("/")
+	public Object indexpage() {
+
+		return "/index.html";
 
 	}
 }
