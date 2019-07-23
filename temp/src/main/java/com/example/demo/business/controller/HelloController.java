@@ -1,15 +1,5 @@
 package com.example.demo.business.controller;
 
-import com.example.demo.business.entity.Person;
-import com.example.demo.business.service.PersonService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
-
 /**
  * 湖北金鹏信息技术有限公司 版权所有 Copyright 2018<br>
  *
