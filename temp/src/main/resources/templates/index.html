@@ -1,11 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js" lang=""  xmlns:th="http://www.thymeleaf.org">
-<!--<![endif]-->
-
 <head>
 <meta charset="utf-8">
 <meta name="description" content="">
@@ -25,7 +19,6 @@
 </head>
 
 <body>
-<!-- header section -->
 <section class="banner" role="banner" id="home">
   <header id="header">
     <div class="header-content clearfix">
@@ -44,18 +37,14 @@
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
   </header>
-  <!-- banner text -->
 <div id="first-slider" class="paddingTop150">
     <div id="carousel-example-generic" class="carousel slide carousel-fade">
-        <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li> 
         </ol>
-        <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <!-- Item 1 -->
             <div class="item active slide1">
                 <div class="row"><div class="container"> 
                     <div class="col-md-9 text-left">
@@ -63,8 +52,7 @@
                         <h4 data-animation="animated bounceInUp"></h4>
                      </div>
                 </div></div>
-             </div> 
-            <!-- Item 2 -->
+             </div>
             <div class="item slide2">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
@@ -73,7 +61,6 @@
                      </div> 
                 </div></div>
             </div>
-            <!-- Item 3 -->
             <div class="item slide3">
                 <div class="row"><div class="container">
                     <div class="col-md-7 text-left">
@@ -187,10 +174,10 @@
 				</div>
 			</div> 
     	</div>
-			</div><!-- end row -->    
+			</div>
   </div>
 </section>
-<div class="tlinks"><!-- Collect from <a href="http://www.cssmoban.com/" >建站模板</a> --></div>
+<div class="tlinks"></div>
 <section id="gallery" class="gallery section">
   <div class="container-fluid">
     <div class="section-header">
@@ -262,6 +249,25 @@
       </div>
     </div>
 
+      <div class="row">
+          <div class="col-md-3 col-sm-6">
+              <div class="person"><img th:src="@{/web/images/news/5.jpg}" alt="" class="img-responsive">
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="person"><img th:src="@{/web/images/news/6.jpg}" alt="" class="img-responsive">
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="person"><img th:src="@{/web/images/news/7.jpg}" alt="" class="img-responsive">
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+              <div class="person"><img th:src="@{/web/images/news/8.jpg}" alt="" class="img-responsive">
+              </div>
+          </div>
+      </div>
+  </div>
     </div>
   </div>
 </section>
@@ -271,11 +277,10 @@
     	<div class="container">
 		   <div class="section-header">
                 <h2 class="wow fadeInDown animated">加盟合作</h2>
-               <!-- <p class="wow fadeInDown animated">形象识别、理念识别、店面规划、装修格调、管理模式、员工着装、经营物料、配方配料、料理程序、顾客服务统一，所有门店共享国际品牌的品牌能量<br> semper aliquam quis mattis quam.</p>-->
            </div>
            <div class="row">
               <h3 class="wow fadeInDown animated">统一品牌的支持</h3>
-              <p class="wow fadeInDown animated">形象识别、理念识别、店面规划、装修格调、管理模式、员工着装、经营物料、配方配料、料理程序、顾客服务统一，所有门店共享国际品牌的品牌能量<br> </p>
+              <p class="wow fadeInDown animated">形象识别、理念识别、店面规划、装修格调、管理模式、员工着装、经营物料、配方配料、料理程序、顾客服务统一，所有门店共享国际品牌的品牌能量</p>
                <div class="row">
                    <div class="col-md-3 col-sm-6">
                        <div class="person"><img th:src="@{/web/images/brand/1.jpg}" alt="" class="img-responsive">
@@ -294,31 +299,52 @@
                        </div>
                    </div>
                </div>
-
-
-
-
            </div>
+            <br>
             <div class="row">
-                <h3 class="wow fadeInDown animated">高端设备支持</h3>
-                <p class="wow fadeInDown animated">br>总部提供国际或者国家认可认证的优质制造设备这些设备有利于提高门店的生产效率、作业质量管理水准和创收能力。 </p>
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <div class="person-content">
+                            <h3 class="wow fadeInDown animated">高端设备支持</h3>
+                            <p>总部提供国际或者国家认可认证的优质制造设备这些设备有利于提高门店的生产效率、作业质量管理水准和创收能力。</p>
+                        </div>
+                        <img th:src="@{/web/images/brand/a-1.jpg}" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <div class="person-content">
+                            <h3 class="wow fadeInDown animated">优质食材支持</h3>
+                            <p>总部提供国际或者国家认可认证的优质制造设备这些设备有利于提高门店的生产效率、作业质量管理水准和创收能力。 </p>
+                        </div>
+                        <img th:src="@{/web/images/brand/a-2.jpg}" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <div class="person-content">
+                            <h3 class="wow fadeInDown animated">经营物料支持</h3>
+                            <p>统一的装修识别物料、统一的经营管理工具、统一的餐具，统一的宣传物料，帮您减负的同时，不断释放品牌诱惑力，凝聚客源。</p>
+                        </div>
+                        <img th:src="@{/web/images/brand/a-3.jpg}" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <div class="person-content">
+                            <h3 class="wow fadeInDown animated">人力资源支持</h3>
+                            <p>总部乐意向全国各地客户输送优秀的技术人才和管理人才，同时协助门店制定招聘人才计划，以及培养发掘人才计划等。 </p>
+                        </div>
+                        <img th:src="@{/web/images/brand/a-4.jpg}" alt="" class="img-responsive">
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <h3 class="wow fadeInDown animated">优质食材支持</h3>
-                <p class="wow fadeInDown animated"><br> 保密配料、关键食材由总部统一配送，以确保制作质量和纯正口感，用全球一样的好口味保证稳步增长的赢利能力。</p>
-            </div>
-            <div class="row">
-                <h3 class="wow fadeInDown animated">经营物料支持</h3>
-                <p class="wow fadeInDown animated"><br> 统一的装修识别物料、统一的经营管理工具、统一的餐具，统一的宣传物料，帮您减负的同时，不断释放品牌诱惑力，凝聚客源。</p>
-            </div>
+
             <div class="row">
                 <h3 class="wow fadeInDown animated">管理模式支持</h3>
                 <p class="wow fadeInDown animated"><br> 万润餐饮按照总部长期优化形成的运营模式，执行高效的经营管理，减少损耗与风险，提升管理效率，提升竞争力。 </p>
             </div>
-            <div class="row">
-                <h3 class="wow fadeInDown animated">人力资源支持</h3>
-                <p class="wow fadeInDown animated"><br>总部乐意向全国各地客户输送优秀的技术人才和管理人才，同时协助门店制定招聘人才计划，以及培养发掘人才计划等。 </p>
-            </div>
+
 
             <div class="row">
                 <h3 class="wow fadeInDown animated">品牌宣传支持</h3>
