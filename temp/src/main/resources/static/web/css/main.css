@@ -6,7 +6,7 @@
 -------------------------------------------------------------------------------*/
 
 #first-slider .slide1 {
-    background-image: url('../images/title/2.jpg');
+    background-image: url('../images/title/4.jpg');
     background-size:  100% 100%;
     background-repeat: no-repeat;
 }
@@ -726,7 +726,7 @@ About
 }
 
 .content-3-10 .image-container .background-image-holder {
-	background: url('../images/banner-3.png') no-repeat center center;
+	background: url('../images/title/2.png') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
