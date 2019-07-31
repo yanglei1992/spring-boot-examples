@@ -494,11 +494,11 @@ ul li {
 	$intro
 ========================================================================== */
 .intro {
-	background-color: #fec400;
+	/*background-color: #fec400;*/
 	color: #000;
 }
 .intro h3 {
-	color: #222;
+	color: #fec400;
 	margin-bottom: 20px;
 	font-weight: bold;
 }
@@ -732,6 +732,7 @@ About
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
+	width: 100%;
 }
 
 .content-3-10 .content {
