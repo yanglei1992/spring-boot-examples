@@ -1061,3 +1061,13 @@ ul.list-default li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+.marginTop120 {
+	margin-top: 120px;
+}
+.product {
+	width: 354px;
+	height: 180px;
+}
+.textAlignLeft {
+	text-align: left;
+}
