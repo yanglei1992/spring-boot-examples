@@ -17,11 +17,13 @@ import java.util.List;
  */
 @Service
 public class PersonService {
-	@Autowired
-	PersonDao personDao;
+	/*@Autowired
+	PersonDao personDao;*/
 
-	public List<Person> getAll() {
-		List<Person> list = personDao.getAll();
+	/*public List<Person> getAll() {
+		*//*List<Person> list = personDao.getAll();	*//*
+
+
 		return list;
-	}
+	}*/
 }
